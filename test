@@ -1,0 +1,10 @@
+#!/bin/sh
+
+#sudo rm -rf /etc/bpmplay
+sudo rm -rf /usr/bin/bpmplay
+sudo rm -rf /usr/share/bpmplay
+
+#sudo cp -R etc /
+sudo cp -R usr /
+
+bpmplay
