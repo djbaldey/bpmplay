@@ -5,7 +5,7 @@
   <object class="GtkAdjustment" id="adjustment_tempo">
     <property name="lower">40</property>
     <property name="upper">208</property>
-    <property name="value">120</property>
+    <property name="value">0</property>
     <property name="step_increment">1</property>
     <property name="page_increment">10</property>
     <signal name="value-changed" handler="on_adjustment_tempo_value_changed" swapped="no"/>
@@ -38,7 +38,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <property name="ypad">10</property>
-                <property name="label" translatable="yes">♩=120</property>
+                <property name="label" translatable="yes">♩=0</property>
                 <attributes>
                   <attribute name="weight" value="bold"/>
                   <attribute name="scale" value="3"/>
